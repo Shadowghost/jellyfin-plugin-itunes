@@ -1,11 +1,10 @@
 using MediaBrowser.Model.Plugins;
 
-namespace Jellyfin.Plugin.ITunes.Configuration
+namespace Jellyfin.Plugin.ITunes.Configuration;
+
+/// <summary>
+/// The (empty) plugin configuration.
+/// </summary>
+public class PluginConfiguration : BasePluginConfiguration
 {
-    /// <summary>
-    /// The (empty) plugin configuration.
-    /// </summary>
-    public class PluginConfiguration : BasePluginConfiguration
-    {
-    }
 }

@@ -1,25 +1,24 @@
-using System;
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace Jellyfin.Plugin.ITunes.Dtos
+namespace Jellyfin.Plugin.ITunes.Dtos;
+
+/// <summary>
+/// The artist DTO.
+/// </summary>
+public class ITunesArtistDto
 {
     /// <summary>
-    /// The artist DTO.
+    /// Gets or sets the result count.
     /// </summary>
-    public class ITunesArtistDto
-    {
-        /// <summary>
-        /// Gets or sets the result count.
-        /// </summary>
-        /// <value>The result count.</value>
-        [JsonPropertyName("resultCount")]
-        public long ResultCount { get; set; }
+    /// <value>The result count.</value>
+    [JsonPropertyName("resultCount")]
+    public long ResultCount { get; set; }
 
-        /// <summary>
-        /// Gets or sets the results.
-        /// </summary>
-        /// <value>The results.</value>
-        [JsonPropertyName("results")]
-        public ArtistResult[] Results { get; set; } = Array.Empty<ArtistResult>();
-    }
+    /// <summary>
+    /// Gets or sets the results.
+    /// </summary>
+    /// <value>The results.</value>
+    [JsonPropertyName("results")]
+    public IReadOnlyList<ArtistResult> Results { get; set; } = [];
 }

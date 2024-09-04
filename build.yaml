@@ -1,9 +1,9 @@
 ---
 name: "iTunes"
 guid: "eb5d7894-8eef-4b36-aa6f-5d124e828ce1"
-version: "2.0.0.0"
+version: "3.0.0.0"
 targetAbi: "10.9.0.0"
-framework: "net7.0"
+framework: "net8.0"
 overview: "Fetch artist and album images from iTunes."
 description: >
   Fetch artist and album images from iTunes
@@ -13,6 +13,5 @@ artifacts:
 - "HtmlAgilityPack.dll"
 - "Jellyfin.Plugin.ITunes.dll"
 changelog: >
-  1.1.0.0:
-    * .NET 7 compatiblity
-    * Don't crash if nothing is found
+  3.0.0.0:
+    * .NET 8 compatiblity
