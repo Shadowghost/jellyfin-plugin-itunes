@@ -2,7 +2,7 @@
 name: "iTunes"
 guid: "eb5d7894-8eef-4b36-aa6f-5d124e828ce1"
 version: "3.0.0.0"
-targetAbi: "10.9.0.0"
+targetAbi: "10.10.0.0"
 framework: "net8.0"
 overview: "Fetch artist and album images from iTunes."
 description: >

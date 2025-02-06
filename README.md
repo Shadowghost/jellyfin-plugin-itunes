@@ -21,14 +21,14 @@ Currently supported:
 
 ## Build
 
-1. To build this plugin you will need [.Net 6.x](https://dotnet.microsoft.com/download/dotnet/6.0).
+1. To build this plugin you will need [.Net 8.x](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 2. Build plugin with following command
   ```
   dotnet publish --configuration Release --output bin
   ```
 
-3. Place the dll-file in the `plugins/coverartarchive` folder (you might need to create the folders) of your JF install
+3. Place the dll-file in the `plugins/iTunes` folder (you might need to create the folders) of your JF install
 
 ## Releasing
 
