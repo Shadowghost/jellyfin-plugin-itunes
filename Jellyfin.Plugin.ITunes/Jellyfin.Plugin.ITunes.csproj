@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Include="Jellyfin.Controller" Version="10.*-*" />
     <PackageReference Include="Jellyfin.Model" Version="10.*-*" />
-    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.65" />
     <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0" PrivateAssets="All" />
     <PackageReference Include="SerilogAnalyzer" Version="0.15.0" PrivateAssets="All" />
